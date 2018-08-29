@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="43170" started-at="2018-08-29T04:34:34Z" finished-at="2018-08-29T04:35:17Z">
+    <groups>
+      <group name="regressionTest">
+        <method signature="CustomerTest.deleteCustomerTest()[pri:0, instance:com.actitime.CustomerTest1.CustomerTest@475530b9]" name="deleteCustomerTest" class="com.actitime.CustomerTest1.CustomerTest"/>
+        <method signature="CustomerTest.modifyCustomerTest()[pri:0, instance:com.actitime.CustomerTest1.CustomerTest@475530b9]" name="modifyCustomerTest" class="com.actitime.CustomerTest1.CustomerTest"/>
+      </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="CustomerTest.createCustomerTest()[pri:0, instance:com.actitime.CustomerTest1.CustomerTest@475530b9]" name="createCustomerTest" class="com.actitime.CustomerTest1.CustomerTest"/>
+        <method signature="CustomerTest.modifyCustomerTest()[pri:0, instance:com.actitime.CustomerTest1.CustomerTest@475530b9]" name="modifyCustomerTest" class="com.actitime.CustomerTest1.CustomerTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test name="Default test" duration-ms="43170" started-at="2018-08-29T04:34:34Z" finished-at="2018-08-29T04:35:17Z">
+      <class name="com.actitime.CustomerTest1.CustomerTest">
+        <test-method status="PASS" signature="createCustomerTest()[pri:0, instance:com.actitime.CustomerTest1.CustomerTest@475530b9]" name="createCustomerTest" duration-ms="42869" started-at="2018-08-29T10:04:34Z" finished-at="2018-08-29T10:05:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomerTest -->
+        <test-method status="PASS" signature="deleteCustomerTest()[pri:0, instance:com.actitime.CustomerTest1.CustomerTest@475530b9]" name="deleteCustomerTest" duration-ms="14" started-at="2018-08-29T10:05:17Z" finished-at="2018-08-29T10:05:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomerTest -->
+        <test-method status="PASS" signature="modifyCustomerTest()[pri:0, instance:com.actitime.CustomerTest1.CustomerTest@475530b9]" name="modifyCustomerTest" duration-ms="17" started-at="2018-08-29T10:05:17Z" finished-at="2018-08-29T10:05:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyCustomerTest -->
+      </class> <!-- com.actitime.CustomerTest1.CustomerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
